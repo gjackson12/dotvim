@@ -16,3 +16,6 @@
 [submodule "bundle/trailertrash"]
 	path = bundle/trailertrash
 	url = https://github.com/csexton/trailertrash.vim.git
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
