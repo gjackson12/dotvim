@@ -11,3 +11,6 @@ let NERDTreeIgnore=['.DS_STORE']
 
 " TrailerTrash
 hi UnwantedTrailerTrash guibg=red ctermbg=red
+
+" Syntastic
+let g:syntastic_auto_loc_list = 1
