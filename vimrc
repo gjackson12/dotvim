@@ -18,3 +18,6 @@ let g:syntastic_auto_loc_list = 1
 " SuperTab
 let g:SuperTabLongestEnhanced=1
 let g:SuperTabLongestHighlight=1
+
+" Color Theme
+colorscheme desert256
