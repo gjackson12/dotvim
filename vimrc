@@ -1,6 +1,11 @@
 call pathogen#infect()
+
 syntax on
+
+filetype plugin on
 filetype plugin indent on
+
+set encoding=utf-8
 
 " NERDTree
 autocmd vimenter * NERDTree
