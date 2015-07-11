@@ -7,6 +7,13 @@ filetype plugin indent on
 
 set encoding=utf-8
 
+set backspace=indent,eol,start
+set sidescroll=10
+set textwidth=79
+set tabstop=4
+set shiftwidth=4
+set noautoindent
+
 " NERDTree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
