@@ -2,6 +2,8 @@ call pathogen#infect()
 
 syntax on
 
+set number
+
 filetype plugin on
 filetype plugin indent on
 
@@ -10,8 +12,8 @@ set encoding=utf-8
 set backspace=indent,eol,start
 set sidescroll=10
 set textwidth=79
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set noautoindent
 
 " NERDTree
