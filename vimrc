@@ -16,6 +16,13 @@ set tabstop=2
 set shiftwidth=2
 set noautoindent
 
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
+autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+autocmd Filetype html,htmldjango,xhtml,haml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
+autocmd Filetype sass,scss,css setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+autocmd Filetype coffee,javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+autocmd Filetype php setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
+
 " NERDTree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
